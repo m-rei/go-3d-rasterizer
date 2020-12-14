@@ -284,7 +284,6 @@ func parseMaterial(filename string) ([]material, error) {
 				ret[len(ret)-1].mapKsData = rl.GetImageData(img)
 				ret[len(ret)-1].mapKsWidth = int(img.Width)
 				ret[len(ret)-1].mapKsHeight = int(img.Height)
-
 			} else if parts[0] == "Ns" && isNotEmpty {
 				v, _ := strconv.ParseFloat(parts[1], 32)
 				ret[len(ret)-1].specularExponent = v

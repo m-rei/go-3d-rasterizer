@@ -128,12 +128,11 @@ func (o *Model) Render(scene *rasterizer.Scene, useLighting bool, lightDirection
 						o.normals[t.n0], o.normals[t.n1], o.normals[t.n2],
 						st0, st1, st2,
 						lightDirection, mat, scene)
-					lightingCalc2 = lightingCalculator(o.vertices[t.v0], o.vertices[t.v1], o.vertices[t.v2],
+					lightingCalc2 = lightingCalculator(o.vertices[t.v0], o.vertices[t.v2], o.vertices[t.v3],
 						o.normals[t.n0], o.normals[t.n2], o.normals[t.n3],
 						st0, st2, st3,
 						lightDirection, mat, scene)
 				}
-
 				scene.RasterizeTriangle(o.vertices[t.v0], o.vertices[t.v1], o.vertices[t.v2], col1, col2, col3, lightingCalc1)
 				scene.RasterizeTriangle(o.vertices[t.v0], o.vertices[t.v2], o.vertices[t.v3], col1, col3, col4, lightingCalc2)
 			} else {
