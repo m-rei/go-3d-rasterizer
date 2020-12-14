@@ -1,0 +1,11 @@
+.vscode
+go-3d-rasterizer
+
+assets/spaceship/Spaceship.mtl
+assets/spaceship/Spaceship.obj
+assets/spaceship/SpaceShipSpecular.png
+assets/spaceship/SpaceShipUV.png
+
+assets/leggings/floral256x256.png
+assets/leggings/leggins.mtl
+assets/leggings/leggins.obj
