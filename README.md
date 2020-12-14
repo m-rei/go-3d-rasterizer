@@ -19,6 +19,14 @@ I used free models from [TurboSquid](https://turbosquid.com)
 
 No testing has been done, use at your own risk :)
 
+## build
+
+just run
+
+    go build
+    
+in the root folder and Go will fetch the dependencies (raylib) and build the executable!
+
 ## preview
 
 ![1](preview.gif)
