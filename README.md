@@ -2,8 +2,8 @@
 
 This is just a very basic 3d rasterizer written in Go.
 
-The [raylib-go](https://github.com/gen2brain/raylib-go) library has been used to only create a window and draw a framebuffer on it.    
-Everything else has been manually implemented.
+The [raylib-go](https://github.com/gen2brain/raylib-go) library has been used to create a window and draw a framebuffer on it.    
+Everything else has been implemented manually.
 
 The purpose of this project was to learn the basics of 3d rendering.    
 This is by no means a finished or optimal solution.
